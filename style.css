@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(78, 78, 78);
+  color: rgb(0, 0, 0);
+}
+
+.Fetch {
+  color: rgb(253, 245, 80);
+}
+
+.user-list {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  }
+  
+.user-list li {
+  cursor: pointer;
+  padding: 8px;
+  margin: 4px 0;
+  width: 500px;
+  border-radius: 10px;
+  width: 500px;
+  background-color: rgb(253, 245, 80);
+  transition: 0.5s ease;
+}
+  
+.user-list li:hover {
+  color: white;
+  background-color:  rgb(78, 78, 78);
+}
+  
+  /* เพิ่มสไตล์ให้กับข้อมูลโพสต์ */
+.post-info {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+  
+.post-info li {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background-color: rgb(253, 245, 80);
+  transition: 0.3s ease;
+}
+  
+.post-info li:hover {
+  color: white;
+  background-color: rgb(78, 78, 78);
+}
